@@ -1,0 +1,14 @@
+{
+  "name": "advanced-functions",
+  "version": "1.0.0",
+  "description": "A collection of functions demonstrating various JavaScript concepts like closures, recursion, and more for educational purposes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Marlena Dulęba",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

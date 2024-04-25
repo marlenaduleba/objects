@@ -20,6 +20,22 @@ const nestedObject = {
       }
     ]
   };
+
+  const objToClone = {
+    name: "John",
+    age: 30,
+    address: {
+      city: "New York",
+      country: "USA"
+    },
+    hobbies: ["reading", "cooking", "traveling"],
+    friends: new Set(["Alice", "Bob", "Charlie"]),
+    preferences: new Map([
+      ["food", "Italian"],
+      ["music", "Jazz"]
+    ])
+  };
   
-  module.exports = { nestedObject };
+  
+  module.exports = { nestedObject, objToClone };
   

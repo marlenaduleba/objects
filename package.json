@@ -1,8 +1,7 @@
 {
-  "name": "advanced-functions",
+  "name": "0bjects",
   "version": "1.0.0",
-  "description": "A collection of functions demonstrating various JavaScript concepts like closures, recursion, and more for educational purposes.",
-  "main": "index.js",
+  "description": "A Node.js tasks demonstrating advanced object manipulation techniques including property descriptors, proxy objects, deep cloning, and validation based on a schema.",
   "scripts": {
     "test": "jest"
   },

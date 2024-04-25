@@ -35,5 +35,3 @@ Object.defineProperty(person, "address", {
 
 module.exports = { person };
 
-
-

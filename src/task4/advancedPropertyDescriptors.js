@@ -1,3 +1,5 @@
+const { person } = require("../task1/objectPropertyManipulation");
+
 function createImmutableObject(obj) {
   const clone = Array.isArray(obj) ? [] : {};
   for (let key in obj) {
@@ -13,5 +15,8 @@ function createImmutableObject(obj) {
   }
   return clone;
 }
+
+const immutablePerson = createImmutableObject(person);
+console.log(immutablePerson.firstName);
 
 module.exports = createImmutableObject;

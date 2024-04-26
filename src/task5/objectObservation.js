@@ -1,3 +1,5 @@
+const { person } = require("../task1/objectPropertyManipulation");
+
 function callback(message) {
   console.log(message);
 }
@@ -18,6 +20,10 @@ function observeObject(obj, callback) {
     },
   });
 }
+
+const personProxy = observeObject(person, callback);
+personProxy.address = "123 Main St";
+console.log(personProxy.address);
 
 module.exports = {
   callback,

@@ -58,11 +58,12 @@ describe("createImmutableObject", () => {
     const immutableObject = createImmutableObject(nestedObject);
 
     // Check nested objects
-    assert.deepStrictEqual(immutableObject.address.street, nestedObject.address.street);
+    assert.deepStrictEqual(
+      immutableObject.address.street,
+      nestedObject.address.street
+    );
 
     // Check nested arrays
     assert.deepStrictEqual(immutableObject.hobbies[0], nestedObject.hobbies[0]);
-
   });
-
 });

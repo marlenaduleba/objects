@@ -5,8 +5,8 @@ const product = {
 };
 
 Object.defineProperties(product, {
-  price: { enumerable: false },
-  quantity: { enumerable: false },
+  price: { enumerable: false, writable: false },
+  quantity: { enumerable: false, writable: false },
 });
 
 function getTotalPrice(product) {
